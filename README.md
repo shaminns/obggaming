@@ -43,12 +43,3 @@ mongoose.Promise = global.Promise;
           node filename.js
 
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Shehroz virk
