@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,300" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        @media only screen and (max-width: 695px) {
+            .title {
+                font-size: 5vw !important;
+            }
+
+            .subtitle {
+                font-size: 4vw !important;
+            }
+        }
+
+        .image-logo {
+            margin: 40px auto;
+            display: block;
+            width: 138px;
+            height: 66px;
+            border: none;
+            background: transparent url("https://backend.onlinebattleground.com/Uploads/OnlineBattleground.png") 0% 0% no-repeat;
+        }
+
+        .image-welcome {
+            margin: 5px auto;
+            width: 370px;
+            height: 98px;
+            background: transparent url("https://backend.onlinebattleground.com/Uploads/congratulation.png") 0% 0% no-repeat;
+            opacity: 1;
+        }
+
+        .body-background {
+            width: 695px;
+            height: 490px;
+            background: #1A1A1A 0% 0% no-repeat padding-box;
+            border: 1px solid #FFFFFF4D;
+            border-radius: 8px;
+            opacity: 1;
+            margin: 5px auto;
+            text-align: center;
+        }
+
+        .welcome_password {
+            margin-top: 40px;
+            margin-left: 105px;
+            width: 473px;
+            height: 32px;
+            text-align: center;
+            font-size: 20px;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 0.9;
+        }
+
+        .welcome_description {
+            margin-top: 16px;
+            margin-left: 11px;
+            width: 655px;
+            height: 61px;
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 0.7;
+        }
+
+        .welcome_btn {
+            display: block;
+            margin: 10px auto;
+            width: 200px;
+            padding: 8px 20px;
+            background: #F26826 0% 0% no-repeat padding-box;
+            border-radius: 4px;
+            opacity: 1;
+        }
+
+        .welcome_text {
+            color: white !important;
+            text-decoration: none;
+        }
+    </style>
+<body>
+<div class=" body-background">
+    <p class="image-logo">
+    <p class="image-welcome">
+    <div class="welcome_password">
+        {{userName}}, Welcome to OnlineBattleGround
+    </div>
+    <div class="welcome_description">We're so glad you have joined OnlineBattleGround.
+        Thanks for joining us.
+    </div>
+
+    <a class="welcome_text welcome_btn" href="{{link}}">Login</a>
+
+    <br>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "env": {
+    "MONGO_ATLAS_PW": "saicoshoki214.",
+    "JWT_KEY": "secret"
+  }
+}
